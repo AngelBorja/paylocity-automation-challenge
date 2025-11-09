@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+
+# Environment variables
+.env
+.env.*
+
+# Playwright artifacts
+playwright-report/
+test-results/
+error_screenshot.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
