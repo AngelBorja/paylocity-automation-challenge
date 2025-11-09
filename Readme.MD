@@ -38,9 +38,9 @@ playwright install
 
 
 ### 4.Create Environment Variables
-Update the .env file in the project root with a valid username/password for the environment:
+Create a .env file in the project root with a valid username/password for the environment:
 
-#### These are very important, as this allows the login before every test run
+#### These are very important, as this allows the login before every test run, you can use the .env.example as a template.
 ```bash
 TEST_USERNAME="Add your usename here"
 TEST_PASSWORD="Add your password here"
