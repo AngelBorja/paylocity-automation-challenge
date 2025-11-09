@@ -18,7 +18,7 @@ Current Tests are:
 ```bash
 git clone https://github.com/AngelBorja/paylocity-automation-challenge.git
 cd playwright-employee-tests
-
+```
 
 ### 2. Install dependencies
 pip install -r requirements.txt
