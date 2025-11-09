@@ -38,19 +38,21 @@ playwright install
 
 
 ### 4.Create Environment Variables
-Create a .env file in the project root:
+Update the .env file in the project root with a valid username/password for the environment:
+
+#### These are very important, as this allows the login before every test run
 ```bash
 TEST_USERNAME="Add your usename here"
 TEST_PASSWORD="Add your password here"
 ```
 
-#### These are very important, as this allows the login before every test run
 
 
 ### 5.Running Tests
 Run all tests with dependency control:
+```bash
 pytest test_login.py -s  
-
+```
 
 
 
