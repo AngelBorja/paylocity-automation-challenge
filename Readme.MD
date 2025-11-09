@@ -19,8 +19,8 @@ Current Tests are:
 git clone https://github.com/AngelBorja/paylocity-automation-challenge.git
 cd playwright-employee-tests
 
-
-2. Install dependencies
+
+### 2. Install dependencies
 pip install -r requirements.txt
 
 
@@ -30,19 +30,19 @@ Required packages:
 - pytest-dependency
 - python-dotenv
 
-3. Install Playwright browsers
+### 3. Install Playwright browsers
 playwright install
 
 
 
-Environment Variables
+### 4.Create Environment Variables
 Create a .env file in the project root:
 TEST_USERNAME="Add your usename here"
 TEST_PASSWORD="Add your password here"
 These are very important, as this allows the login before every test run
 
 
-Running Tests
+### 5.Running Tests
 Run all tests with dependency control:
 pytest test_login.py -s  
 
